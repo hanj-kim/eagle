@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SO-8">
+<smd name="1" x="0" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.27" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="3.81" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="3.81" y="5.1" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="5.1" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="1.27" y="5.1" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="0" y="5.1" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<text x="-0.8" y="1" size="1" layer="25" rot="R90">&gt;Name</text>
+<wire x1="-0.5" y1="4.1" x2="4.3" y2="4.1" width="0.2" layer="21"/>
+<wire x1="4.3" y1="4.1" x2="4.3" y2="1" width="0.2" layer="21"/>
+<wire x1="4.3" y1="1" x2="-0.5" y2="1" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="1" x2="-0.5" y2="4.1" width="0.2" layer="21"/>
+<circle x="0.2" y="1.7" radius="0.360553125" width="0" layer="21"/>
+</package>
+<package name="8UMAX-EP">
+<smd name="1" x="0" y="0" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="0" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="1.3" y="0" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="1.95" y="0" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.95" y="4.3" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="6" x="1.3" y="4.3" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="7" x="0.65" y="4.3" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="8" x="0" y="4.3" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="EX.PAD" x="0.95" y="2.15" dx="1.8" dy="2.6" layer="1" rot="R90"/>
+<wire x1="-0.3" y1="-1.3" x2="2.7" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="2.7" y1="-1.3" x2="2.7" y2="5.5" width="0.2" layer="21"/>
+<wire x1="2.7" y1="5.5" x2="-0.9" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="5.5" x2="-0.9" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="-0.7" x2="-0.3" y2="-1.3" width="0.2" layer="21"/>
+<text x="-1.3" y="-1.4" size="0.8" layer="25" rot="R90">&gt;Name</text>
+</package>
+<package name="SOIC-8">
+<smd name="1" x="0" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.27" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="3.81" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="3.81" y="5.35" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="5.35" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="1.27" y="5.35" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="0" y="5.35" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-0.5" y1="4.2" x2="4.3" y2="4.2" width="0.2" layer="21"/>
+<wire x1="4.3" y1="4.2" x2="4.3" y2="1.1" width="0.2" layer="21"/>
+<wire x1="4.3" y1="1.1" x2="-0.5" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="1.1" x2="-0.5" y2="4.2" width="0.2" layer="21"/>
+<circle x="0.2" y="1.8" radius="0.360553125" width="0" layer="21"/>
+<text x="-0.8" y="1.1" size="1" layer="25" rot="R90">&gt;Name</text>
+</package>
+<package name="DFN-8(2X2)">
+<smd name="1" x="1.5" y="2" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="1" y="2" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.5" y="2" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0" y="2" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0" y="0" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0.5" y="0" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="1" y="0" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="1.5" y="0" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-0.8" y1="3" x2="-0.8" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="2.6" x2="-0.8" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="2.1" x2="-0.8" y2="-1" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-1" x2="2" y2="-1" width="0.2" layer="21"/>
+<wire x1="2" y1="-1" x2="2" y2="3" width="0.2" layer="21"/>
+<wire x1="2" y1="3" x2="-0.5" y2="3" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="3" x2="-0.8" y2="3" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="2.6" x2="-0.7" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="2.6" x2="-0.5" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="2.6" x2="-0.5" y2="3" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="3" x2="-0.7" y2="3" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="3" x2="-0.7" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="0" x2="-0.5" y2="0" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="2.1" x2="-0.5" y2="2.1" width="0.2" layer="21"/>
+<text x="-1.1" y="-0.8" size="0.8" layer="25" rot="R90">&gt;Name</text>
+<text x="2.3" y="-0.9" size="0.8" layer="27" rot="R90" align="top-left">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="OP_AMP_PWR">
+<pin name="IN+" x="-5" y="2.5" visible="pad" length="middle"/>
+<pin name="IN-" x="-5" y="-2.5" visible="pad" length="middle"/>
+<pin name="OUT" x="12.5" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="0" y1="7.5" x2="0" y2="-7.5" width="0.2" layer="94"/>
+<wire x1="0" y1="-7.5" x2="7.5" y2="0" width="0.2" layer="94"/>
+<wire x1="7.5" y1="0" x2="0" y2="7.5" width="0.2" layer="94"/>
+<wire x1="1" y1="2.5" x2="2" y2="2.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="3" x2="1.5" y2="2" width="0.2" layer="94"/>
+<wire x1="1" y1="-2.5" x2="2" y2="-2.5" width="0.2" layer="94"/>
+<pin name="VS+" x="5" y="7.5" visible="pad" length="middle" rot="R270"/>
+<pin name="VS-" x="5" y="-7.5" visible="pad" length="middle" rot="R90"/>
+<text x="6" y="4" size="1.27" layer="94">Vs+</text>
+<text x="6" y="-6" size="1.27" layer="94">Vs-</text>
+<text x="-2.5" y="8.5" size="1.27" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="OP_AMP">
+<pin name="IN+" x="-7.5" y="2.5" visible="pad" length="middle"/>
+<pin name="IN-" x="-7.5" y="-2.5" visible="pad" length="middle"/>
+<pin name="OUT" x="10" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="-2.5" y1="7.5" x2="-2.5" y2="-7.5" width="0.2" layer="94"/>
+<wire x1="-2.5" y1="-7.5" x2="5" y2="0" width="0.2" layer="94"/>
+<wire x1="5" y1="0" x2="-2.5" y2="7.5" width="0.2" layer="94"/>
+<wire x1="-1.5" y1="2.5" x2="-0.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="-1" y1="3" x2="-1" y2="2" width="0.2" layer="94"/>
+<wire x1="-1.5" y1="-2.5" x2="-0.5" y2="-2.5" width="0.2" layer="94"/>
+<text x="-3.5" y="8" size="1.27" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="OP_AMP_DIFF(MAX44206)">
+<pin name="IN+" x="-5" y="-5" visible="pad" length="middle"/>
+<pin name="IN-" x="-5" y="5" visible="pad" length="middle"/>
+<wire x1="0" y1="7.5" x2="0" y2="-7.5" width="0.2" layer="94"/>
+<wire x1="0" y1="-7.5" x2="15" y2="0" width="0.2" layer="94"/>
+<wire x1="15" y1="0" x2="0" y2="7.5" width="0.2" layer="94"/>
+<wire x1="1" y1="-5" x2="2" y2="-5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="-4.5" x2="1.5" y2="-5.5" width="0.2" layer="94"/>
+<wire x1="1" y1="5" x2="2" y2="5" width="0.2" layer="94"/>
+<text x="7.5" y="5" size="1.27" layer="95">&gt;Name</text>
+<pin name="OUT+" x="15" y="2.5" visible="pad" length="middle" rot="R180"/>
+<pin name="OUT-" x="15" y="-2.5" visible="pad" length="middle" function="dot" rot="R180"/>
+<wire x1="7" y1="2.5" x2="8" y2="2.5" width="0.2" layer="94"/>
+<wire x1="7.5" y1="3" x2="7.5" y2="2" width="0.2" layer="94"/>
+<wire x1="7" y1="-2.5" x2="8" y2="-2.5" width="0.2" layer="94"/>
+<pin name="V+" x="0" y="12.5" visible="pad" length="middle" rot="R270"/>
+<pin name="V-" x="0" y="-12.5" visible="pad" length="middle" rot="R90"/>
+<pin name="!SHDN" x="5" y="10" visible="pad" length="middle" rot="R270"/>
+<pin name="GND" x="5" y="-10" visible="pad" length="middle" rot="R90"/>
+<pin name="VOCM" x="-5" y="0" visible="pad" length="middle"/>
+<text x="0.5" y="8.5" size="0.8" layer="94">Vs+</text>
+<text x="0.5" y="-8.5" size="0.8" layer="94">Vs-</text>
+<text x="6" y="-6" size="0.8" layer="94">GND</text>
+<text x="0.5" y="0" size="0.8" layer="94">Vocm</text>
+<text x="3.5" y="3" size="0.8" layer="94">!SHDN!</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM2904M" prefix="U" uservalue="yes">
+<description>The LM2904,LM358/LM358A, LM258/LM258A.
+consist of two independent, high gain, internally frequency 
+compensated operational amplifiers which were designed
+specifically to operate from a single power supply over a
+wide range of voltage. Operation from split power supplies
+is also possible and the low power supply current drain is
+independent of the magnitude of the power supply voltage.
+Application areas include transducer amplifier, DC gain
+blocks and all the conventional OP-AMP circuits which now
+can be easily implemented in single power supply systems.</description>
+<gates>
+<gate name="A" symbol="OP_AMP_PWR" x="0" y="0"/>
+<gate name="B" symbol="OP_AMP" x="2.5" y="-20"/>
+</gates>
+<devices>
+<device name="/SO-8" package="SO-8">
+<connects>
+<connect gate="A" pin="IN+" pad="3"/>
+<connect gate="A" pin="IN-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="VS+" pad="8"/>
+<connect gate="A" pin="VS-" pad="4"/>
+<connect gate="B" pin="IN+" pad="5"/>
+<connect gate="B" pin="IN-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX44206" prefix="U" uservalue="yes">
+<description>The MAX44206 is a low-noise, low-distortion fully differential
+operational amplifier suitable for driving high-speed,
+high-resolution, 20-/18-/16-bit SAR ADCs, including the
+MAX11905 ADC family. Featuring a combination of wide
+2.7V to 13.2V supply voltage range and wide 400MHz
+bandwidth, the MAX44206 is suitable for low-power, highperformance
+data acquisition systems.
+The MAX44206 offers a VOCM input to adjust the output
+common-mode voltage, eliminating the need for a coupling
+transformer or AC-coupling capacitors. This adjustable
+output common-mode voltage allows the MAX44206
+to match the input common-mode voltage range of the
+ADC following it. Shutdown mode consumes only 6.8μA
+and extends battery life in battery-powered applications
+or reduces average power in systems cycling between
+shutdown and periodic data readings.
+The MAX44206 is available in an 8-pin μMAX® package
+and is specified for operation over the -40°C to +125°C
+temperature range.</description>
+<gates>
+<gate name="G$1" symbol="OP_AMP_DIFF(MAX44206)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AUA+" package="8UMAX-EP">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="7"/>
+<connect gate="G$1" pin="GND" pad="EX.PAD"/>
+<connect gate="G$1" pin="IN+" pad="8"/>
+<connect gate="G$1" pin="IN-" pad="1"/>
+<connect gate="G$1" pin="OUT+" pad="4"/>
+<connect gate="G$1" pin="OUT-" pad="5"/>
+<connect gate="G$1" pin="V+" pad="3"/>
+<connect gate="G$1" pin="V-" pad="6"/>
+<connect gate="G$1" pin="VOCM" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA2822" prefix="U" uservalue="yes">
+<description>The OPA2822 offers very low 2.0nV/√Hz input noise in a
+wideband, unity-gain stable, voltage-feedback architecture.
+Intended for xDSL receiver applications, the OPA2822 also
+supports this low input noise with exceptionally low harmonic
+distortion, particularly in differential configurations. Adequate
+output current is provided to drive the potentially heavy load
+of a passive filter between this amplifier and the codec.
+Harmonic distortion for a 2VPP differential output operating
+from +5V to +12V supplies is ≤ –100dBc through 1MHz input
+frequencies. Operating on a low 4.8mA/ch supply current,
+the OPA2822 can satisfy all xDSL receiver requirements
+over a wide range of possible supply voltages—from a single
++5V condition, to ±5V, up to a single +12V design.
+General-purpose applications on a single +5V supply will
+benefit from the high input and output voltage swing available
+on this reduced supply voltage. Low-cost precision integrators
+for PLLs will also benefit from the low voltage noise and
+offset voltage. Baseband I/Q receiver channels can achieve
+almost perfect channel match with noise and distortion to
+support signals through 5MHz with &gt; 14-bit dynamic range.</description>
+<gates>
+<gate name="_1" symbol="OP_AMP_PWR" x="-5" y="12.5"/>
+<gate name="_2" symbol="OP_AMP" x="-2.5" y="-10"/>
+</gates>
+<devices>
+<device name="U" package="SOIC-8">
+<connects>
+<connect gate="_1" pin="IN+" pad="3"/>
+<connect gate="_1" pin="IN-" pad="2"/>
+<connect gate="_1" pin="OUT" pad="1"/>
+<connect gate="_1" pin="VS+" pad="8"/>
+<connect gate="_1" pin="VS-" pad="4"/>
+<connect gate="_2" pin="IN+" pad="5"/>
+<connect gate="_2" pin="IN-" pad="6"/>
+<connect gate="_2" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSV712" prefix="U" uservalue="yes">
+<description>The TSV71x series of single, dual, and quad
+operational amplifiers offer low-voltage operation,
+rail-to-rail input and output, and excellent
+accuracy (Vio lower than 200 μV at 25 ° C).
+These devices benefit from STMicroelectronics®
+5 V CMOS technology and offer an excellent
+speed/power consumption ratio (150 kHz typical
+gain bandwidth) while consuming less than 14 μA
+at 5 V. The TSV71x series also feature an
+ultra-low input bias current.
+The single version (TSV711), the dual version
+(TSV712), and the quad version (TSV714) are
+housed in the smallest industrial packages.
+These characteristics make the TSV71x family
+ideal for sensor interfaces, battery-powered and
+portable applications, and active filtering.</description>
+<gates>
+<gate name="A" symbol="OP_AMP" x="0" y="0"/>
+<gate name="B" symbol="OP_AMP_PWR" x="-2.5" y="-20"/>
+</gates>
+<devices>
+<device name="IQ2T" package="DFN-8(2X2)">
+<connects>
+<connect gate="A" pin="IN+" pad="3"/>
+<connect gate="A" pin="IN-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="IN+" pad="5"/>
+<connect gate="B" pin="IN-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="B" pin="VS+" pad="8"/>
+<connect gate="B" pin="VS-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSH72" prefix="U" uservalue="yes">
+<description>The TSH7x series offers single, dual, triple, and
+quad operational amplifiers featuring high video
+performances with large bandwidth, low
+distortion, and excellent supply voltage rejection.
+Running with a single supply voltage from 3 V to
+12 V, these amplifiers feature a large output
+voltage swing and high output current capable of
+driving standard 150 Ω loads. A low operating
+voltage makes TSH7x amplifiers ideal for use in
+portable equipment. The TSH71, TSH73, and
+TSH75 also feature standby inputs, each of which
+allows the op-amp to be put into a standby mode
+with low-power consumption and high-output
+impedance. This function allows power saving or
+signal switching/multiplexing for high-speed
+applications and video applications. To
+economize both board space and weight, the
+TSH7x series is proposed in SOT23-5, SO, and
+TSSOP packages</description>
+<gates>
+<gate name="A" symbol="OP_AMP" x="0" y="0"/>
+<gate name="B" symbol="OP_AMP_PWR" x="-2.5" y="-20"/>
+</gates>
+<devices>
+<device name="CDT" package="SO-8">
+<connects>
+<connect gate="A" pin="IN+" pad="3"/>
+<connect gate="A" pin="IN-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="IN+" pad="5"/>
+<connect gate="B" pin="IN-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="B" pin="VS+" pad="8"/>
+<connect gate="B" pin="VS-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
