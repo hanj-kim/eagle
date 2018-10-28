@@ -52,6 +52,9 @@ eagle.epf
 
 *.eps
 
+# Private Folder
+*PMS
+*MODI_Arduino
 # file locks introduced since 7.x
 *.lck
 
