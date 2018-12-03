@@ -4,6 +4,9 @@
 ### Eagle ###
 # Ignore list for Eagle, a PCB layout tool
 
+# Gerber files
+*.gbr
+
 # Backup files
 *.s#?
 *.b#?
@@ -53,9 +56,10 @@ eagle.epf
 *.eps
 
 # Private Folder
-PMS/
-MODI_Arduino/
-MODI/
+projects/hanjunkim/PMS/
+projects/hanjunkim/Power Line Swtich/
+projects/MODI_Arduino/
+projects/MODI/
 
 # image (luxrobo)
 image/
