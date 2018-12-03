@@ -1,0 +1,33 @@
+﻿Partlist exported from C:/Users/Tuna/Documents/EAGLE/projects/MODI/BatteryModule/base_module_e1.sch at 2018-10-30 오전 10:16
+
+Part Value Device                  Package      Description                                      
+C1   0.1uF CAPACITOR_CHIP1005      1005                                                          
+C2   1uF   CAPACITOR_CHIP1005      1005                                                          
+C3   22uF  CAPACITOR_CHIP2012      2012                                                          
+C4   100uF CAPACITOR_POLAR_A_SIZE  A_SIZE(3216)                                                  
+J1         MODI_CONNECTOR_BOTTOM   3P                                                            
+J2         MODI_CONNECTOR_BOTTOM   3P                                                            
+J3         AXK720447G              SOCKET_20P                                                    
+L1   33uH  INDUCTOR2518            2518                                                          
+P1         MODI_BAT_BASE           BAT_BASE                                                      
+R1   10K   RESISTOR_CHIP_SMALL1005 1005                                                          
+R2   1K    RESISTOR_CHIP_SMALL1005 1005                                                          
+R3   10K   RESISTOR_CHIP_SMALL1005 1005                                                          
+R4   1K    RESISTOR_CHIP_SMALL1005 1005                                                          
+R5   4.99K RESISTOR_CHIP_SMALL1005 1005                                                          
+R6   4.99K RESISTOR_CHIP_SMALL1005 1005                                                          
+R7   45K   RESISTOR_CHIP_1005      1005                                                          
+R8   10K   RESISTOR_CHIP_1005      1005                                                          
+TP4        TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP7        TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP8        TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP9        TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP10       TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP11       TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP12       TEST_POINT_1.2MM_PAD    1.2MM_PAD                                                     
+TP13       TEST_POINT              0.7MM_HOLE                                                    
+TP14       TEST_POINT              0.7MM_HOLE                                                    
+TP15       TEST_POINT              0.7MM_HOLE                                                    
+U1         STM8S003FXU6            UFQFPN20     • 16 MHz advanced STM8 core with Harvard         
+U2         SY8089                  SOT-23-5     The SY8089 and SY8089A are high-efficiency, high 
+U3	PMXB120EPE		DFN1010D-3	

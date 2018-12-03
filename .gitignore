@@ -60,4 +60,7 @@ eagle.epf
 
 # Zipfile
 *.zip
+
+# image (luxrobo)
+image/
 # End of https://www.gitignore.io/api/eagle

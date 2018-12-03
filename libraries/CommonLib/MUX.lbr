@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="USOIC8">
+<smd name="P$1" x="0" y="0" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$2" x="0.5" y="0" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$3" x="1" y="0" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$4" x="1.5" y="0" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$5" x="2" y="0" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$6" x="2" y="4.2" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$7" x="1.5" y="4.2" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$8" x="1" y="4.2" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$9" x="0.5" y="4.2" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$10" x="0" y="4.2" dx="0.3" dy="1.2" layer="1"/>
+<wire x1="-0.4" y1="3.2" x2="-0.4" y2="1" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="1" x2="2.5" y2="1" width="0.2" layer="21"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="3.2" width="0.2" layer="21"/>
+<wire x1="2.5" y1="3.2" x2="-0.4" y2="3.2" width="0.2" layer="21"/>
+<circle x="0.1" y="1.5" radius="0.1" width="0.2" layer="21"/>
+<text x="-0.8" y="1.1" size="0.8" layer="21" rot="R90">&gt;Name</text>
+</package>
+<package name="TSSOP-16">
+<smd name="1" x="0" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="1.3" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="1.95" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="2.6" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="3.25" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="3.9" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="4.55" y="0" dx="2" dy="0.4" layer="1" rot="R90"/>
+<smd name="9" x="4.55" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="10" x="3.9" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="11" x="3.25" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="12" x="2.6" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="13" x="1.95" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="14" x="1.3" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="15" x="0.65" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<smd name="16" x="0" y="5.6" dx="2" dy="0.4" layer="1" rot="R270"/>
+<circle x="0.1" y="1.9" radius="0.3" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="7" x2="-0.6" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-1.4" x2="5.2" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="5.2" y1="-1.4" x2="5.2" y2="7" width="0.2" layer="21"/>
+<wire x1="5.2" y1="7" x2="-0.6" y2="7" width="0.2" layer="21"/>
+<text x="-0.9" y="-1.1" size="0.8" layer="25" rot="R90">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MUX(4-&gt;1)">
+<pin name="S1" x="-7.5" y="15" visible="pin" length="middle"/>
+<pin name="S2" x="-7.5" y="10" visible="pin" length="middle"/>
+<pin name="S3" x="-7.5" y="5" visible="pin" length="middle"/>
+<pin name="S4" x="-7.5" y="0" visible="pin" length="middle"/>
+<pin name="D" x="22.5" y="7.5" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="2.5" y="-15" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="7.5" y="-15" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="12.5" y="-15" visible="pin" length="middle" rot="R90"/>
+<pin name="VCC" x="2.5" y="30" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="12.5" y="30" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<wire x1="-2.5" y1="25" x2="-2.5" y2="-10" width="0.2" layer="94"/>
+<wire x1="-2.5" y1="-10" x2="17.5" y2="-10" width="0.2" layer="94"/>
+<wire x1="17.5" y1="-10" x2="17.5" y2="25" width="0.2" layer="94"/>
+<wire x1="17.5" y1="25" x2="-2.5" y2="25" width="0.2" layer="94"/>
+<text x="5" y="-2.5" size="1" layer="96">&gt;Value</text>
+<text x="-2.5" y="27.5" size="1" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="74HC4316">
+<pin name="IN_2" x="-5" y="0" visible="pin" length="middle"/>
+<pin name="SEL_2" x="-5" y="5" visible="pin" length="middle"/>
+<pin name="IN_1" x="-5" y="10" visible="pin" length="middle"/>
+<pin name="SEL_1" x="-5" y="15" visible="pin" length="middle"/>
+<pin name="IN_4" x="-5" y="-20" visible="pin" length="middle"/>
+<pin name="SEL_4" x="-5" y="-15" visible="pin" length="middle"/>
+<pin name="IN_3" x="-5" y="-10" visible="pin" length="middle"/>
+<pin name="SEL_3" x="-5" y="-5" visible="pin" length="middle"/>
+<pin name="V+" x="27.5" y="15" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="27.5" y="-20" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT_4" x="27.5" y="-10" visible="pin" length="middle" rot="R180"/>
+<pin name="!EN!" x="27.5" y="-15" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_3" x="27.5" y="-5" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_1" x="27.5" y="5" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_2" x="27.5" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="V-" x="27.5" y="10" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="20" x2="0" y2="-25" width="0.2" layer="94"/>
+<wire x1="0" y1="-25" x2="22.5" y2="-25" width="0.2" layer="94"/>
+<wire x1="22.5" y1="-25" x2="22.5" y2="20" width="0.2" layer="94"/>
+<wire x1="22.5" y1="20" x2="0" y2="20" width="0.2" layer="94"/>
+<text x="2.5" y="22.5" size="1" layer="95">&gt;Name</text>
+<text x="2.5" y="-27.5" size="1" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="74HC4052">
+<pin name="A0" x="-5" y="5" length="middle"/>
+<pin name="A1" x="-5" y="0" length="middle"/>
+<pin name="A2" x="-5" y="-5" length="middle"/>
+<pin name="A3" x="-5" y="-10" length="middle"/>
+<pin name="B0" x="25" y="5" length="middle" rot="R180"/>
+<pin name="B1" x="25" y="0" length="middle" rot="R180"/>
+<pin name="B2" x="25" y="-5" length="middle" rot="R180"/>
+<pin name="B3" x="25" y="-10" length="middle" rot="R180"/>
+<pin name="ACOM" x="-5" y="-15" length="middle"/>
+<pin name="BCOM" x="25" y="-15" length="middle" rot="R180"/>
+<pin name="!EN!" x="-5" y="-20" length="middle"/>
+<pin name="S0" x="25" y="-20" length="middle" rot="R180"/>
+<pin name="S1" x="25" y="-25" length="middle" rot="R180"/>
+<pin name="GND" x="-5" y="-25" length="middle" direction="pwr"/>
+<pin name="VEE" x="-5" y="10" length="middle" direction="pwr"/>
+<pin name="VCC" x="25" y="10" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="15" x2="0" y2="-30" width="0.2" layer="94"/>
+<wire x1="0" y1="-30" x2="20" y2="-30" width="0.2" layer="94"/>
+<wire x1="20" y1="-30" x2="20" y2="15" width="0.2" layer="94"/>
+<wire x1="20" y1="15" x2="0" y2="15" width="0.2" layer="94"/>
+<text x="0" y="17.5" size="1" layer="95">&gt;Name</text>
+<text x="0" y="-32.5" size="1" layer="96">&gt;Value</text>
+<text x="7.5" y="12.5" size="1" layer="94">74HC4051</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADG704" prefix="U" uservalue="yes">
+<description>The ADG704 is a CMOS analog multiplexer, comprising four
+single channels. This multiplexer is designed on an advanced
+submicron process that provides low power dissipation yet gives
+high switching speed, low on resistance, low leakage currents
+and high bandwidths.
+The on resistance profile is very flat over the full analog signal
+range. This ensures excellent linearity and low distortion when
+switching audio signals. Fast switching speed also makes the
+part suitable for video signal switching.
+The ADG704 can operate from a single supply range of +1.8 V
+to +5.5 V, making it ideal for use in battery powered instruments
+and with the new generation of DACs and ADCs from
+Analog Devices.
+The ADG704 switches one of four inputs to a common output,
+D, as determined by the 3-bit binary address lines, A0, A1 and
+EN. A Logic “0” on the EN pin disables the device.
+Each switch of the ADG704 conducts equally well in both
+directions when ON. The ADG704 exhibits break-before-make
+switching action.
+The ADG704 is available in 10-lead mSOIC package</description>
+<gates>
+<gate name="G$1" symbol="MUX(4-&gt;1)" x="-7.5" y="-7.5"/>
+</gates>
+<devices>
+<device name="ADG704BRMZ" package="USOIC8">
+<connects>
+<connect gate="G$1" pin="A0" pad="P$1"/>
+<connect gate="G$1" pin="A1" pad="P$10"/>
+<connect gate="G$1" pin="D" pad="P$8"/>
+<connect gate="G$1" pin="EN" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="S1" pad="P$2"/>
+<connect gate="G$1" pin="S2" pad="P$9"/>
+<connect gate="G$1" pin="S3" pad="P$4"/>
+<connect gate="G$1" pin="S4" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74HC4316" prefix="U" uservalue="yes">
+<description>The HC4316 and CD74HCT4316 contain four independent
+digitally controlled analog switches that use silicon-gate
+CMOS technology to achieve operating speeds similar to
+LSTTL with the low power consumption of standard CMOS
+integrated circuits.</description>
+<gates>
+<gate name="G$1" symbol="74HC4316" x="0" y="2.5"/>
+</gates>
+<devices>
+<device name="PW" package="TSSOP-16">
+<connects>
+<connect gate="G$1" pin="!EN!" pad="7"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="IN_1" pad="2"/>
+<connect gate="G$1" pin="IN_2" pad="3"/>
+<connect gate="G$1" pin="IN_3" pad="11"/>
+<connect gate="G$1" pin="IN_4" pad="12"/>
+<connect gate="G$1" pin="OUT_1" pad="1"/>
+<connect gate="G$1" pin="OUT_2" pad="4"/>
+<connect gate="G$1" pin="OUT_3" pad="10"/>
+<connect gate="G$1" pin="OUT_4" pad="13"/>
+<connect gate="G$1" pin="SEL_1" pad="15"/>
+<connect gate="G$1" pin="SEL_2" pad="5"/>
+<connect gate="G$1" pin="SEL_3" pad="6"/>
+<connect gate="G$1" pin="SEL_4" pad="14"/>
+<connect gate="G$1" pin="V+" pad="16"/>
+<connect gate="G$1" pin="V-" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74HC4052" prefix="U" uservalue="yes">
+<description>74xx4052 devices are digitally controlled analog switches which utilize silicon gate CMOS technology to achieve operating speeds similar to LSTTL with the
+low power consumption of standard CMOS integrated circuits.
+These analog multiplexers/demultiplexers control analog voltages that may vary across the voltage supply range (i.e., VCC to VEE). They are bidirectional switches thus allowing any analog input to be used as an output and vice-versa. The switches have low ON resistance and low OFF leakages. In addition, all three devices have an enable control which, when high, disables all switches to their OFF state.</description>
+<gates>
+<gate name="A" symbol="74HC4052" x="-10" y="7.5"/>
+</gates>
+<devices>
+<device name="PW" package="TSSOP-16">
+<connects>
+<connect gate="A" pin="!EN!" pad="6"/>
+<connect gate="A" pin="A0" pad="12"/>
+<connect gate="A" pin="A1" pad="14"/>
+<connect gate="A" pin="A2" pad="15"/>
+<connect gate="A" pin="A3" pad="11"/>
+<connect gate="A" pin="ACOM" pad="13"/>
+<connect gate="A" pin="B0" pad="1"/>
+<connect gate="A" pin="B1" pad="5"/>
+<connect gate="A" pin="B2" pad="2"/>
+<connect gate="A" pin="B3" pad="4"/>
+<connect gate="A" pin="BCOM" pad="3"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="S0" pad="10"/>
+<connect gate="A" pin="S1" pad="9"/>
+<connect gate="A" pin="VCC" pad="16"/>
+<connect gate="A" pin="VEE" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

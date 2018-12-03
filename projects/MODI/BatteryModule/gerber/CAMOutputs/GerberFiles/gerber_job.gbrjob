@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-11-02T08:59:08Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.27,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "base_module_e1_0.2"
+        },
+        "Owner": "hanjun kim <tuna@luxrobo.com>",
+        "Size": {
+            "X": 15.3,
+            "Y": 18.6
+        }
+    }
+}
